@@ -1,0 +1,8 @@
+React.js Topics:-
+
+1.import/export
+2.Real DOM vs Virtual DOM
+3.vite - bundler used to create folder
+4. eslint - sets the common rules for developer so that code looks identical  
+
+
