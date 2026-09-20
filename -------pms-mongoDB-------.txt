@@ -1,4 +1,0 @@
--------pms-mongoDB-------
-
-username syeddanishin_db_user
-password MZCflEKxNW7RHvIi
