@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+PRODID:-//AddEvent Inc//AddEvent.com v1.7//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:STANDARD
+DTSTART:20261025T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20260329T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DESCRIPTION:AI-Proficient Developer Certification\n\nThe first hands-on AI certification built specifically for software developers.\n\nJoin this event to be the first to hear when the next opportunity opens. You'll get updates on the certification\, training\, exam dates\, and early access announcements before the public.\n\nhttps://ai.certificates.dev/
+X-ALT-DESC;FMTTYPE=text/html:<strong>AI-Proficient Developer Certification<br /></strong><br />The first hands-on AI certification built specifically for software developers.<br><br>Join this event to be the first to hear when the next opportunity opens. You'll get updates on the certification, training, exam dates, and early access announcements before the public.<br><br>https://ai.certificates.dev/
+UID:ee811a150861431385119a038914a75aaddeventcom
+SUMMARY:LAUNCH🔥: AI-Proficient Developer Certification
+DTSTART;TZID=Europe/Amsterdam:20260915T160000
+DTEND;TZID=Europe/Amsterdam:20260916T160000
+DTSTAMP:20260831T074003Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:https://ai.certificates.dev
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
