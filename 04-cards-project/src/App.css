@@ -1,0 +1,188 @@
+```css
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.parent {
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #111;
+
+  padding: 30px;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Card */
+.card {
+  width: 280px;
+  height: 330px;
+
+  background-color: #fff;
+
+  border-radius: 30px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* =========================
+   TOP SECTION
+========================= */
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img {
+  width: 55px;
+  height: 55px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+  border: 1px solid #dadada;
+
+  padding: 2px;
+}
+
+.save-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  padding: 5px 8px;
+
+  background-color: #111;
+  color: #fff;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 11px;
+
+  cursor: pointer;
+}
+
+/* =========================
+   CENTER SECTION
+========================= */
+
+.center {
+  font-family: 'Poppins', sans-serif;
+}
+
+.center h3 {
+  font-size: 17px;
+  font-weight: 500;
+
+  margin-bottom: 7px;
+}
+
+.center h3 span {
+  font-size: 10px;
+  font-weight: 400;
+
+  color: #8b8b8b;
+
+  margin-left: 5px;
+}
+
+.center h2 {
+  font-size: 21px;
+  font-weight: 600;
+
+  margin-bottom: 10px;
+}
+
+/* Tags */
+
+.tag {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.tag h4 {
+  font-size: 11px;
+  font-weight: 500;
+
+  color: #111;
+
+  background-color: #dadada;
+
+  padding: 7px 9px;
+
+  border-radius: 7px;
+}
+
+/* =========================
+   BOTTOM SECTION
+========================= */
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 1px solid #d0d0d0;
+
+  padding-top: 15px;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.salary h2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.salary p {
+  font-size: 12px;
+
+  color: #8b8b8b;
+
+  margin-top: 3px;
+}
+
+/* Apply Button */
+
+.apply-btn {
+  padding: 10px 15px;
+
+  background-color: #111;
+  color: #fff;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 12px;
+
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #333;
+}
+```
