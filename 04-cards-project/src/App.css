@@ -1,5 +1,3 @@
-```css
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -185,4 +183,3 @@ body {
 .apply-btn:hover {
   background-color: #333;
 }
-```
