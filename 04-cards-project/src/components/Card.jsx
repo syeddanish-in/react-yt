@@ -6,30 +6,32 @@ const Card = (props) => {
         <div>
             <div className="card">
 
-                {/* Top */}
-                <div className="top">
-                    <img
-                        src={props.brandLogo}
-                        alt="company_logo"
-                    />
+                <div>
+                    {/* Top */}
+                    <div className="top">
+                        <img
+                            src={props.brandLogo}
+                            alt="company_logo"
+                        />
 
-                    <button className="save-btn">
-                        Save
-                        <Bookmark size={13} strokeWidth={2} />
-                    </button>
-                </div>
+                        <button className="save-btn">
+                            Save
+                            <Bookmark size={13} strokeWidth={2} />
+                        </button>
+                    </div>
 
-                {/* Center */}
-                <div className="center">
-                    <h3>
-                        {props.companyName} <span>{props.datePosted}</span>
-                    </h3>
+                    {/* Center */}
+                    <div className="center">
+                        <h3>
+                            {props.companyName} <span>{props.datePosted}</span>
+                        </h3>
 
-                    <h2>{props.post}</h2>
+                        <h2>{props.post}</h2>
 
-                    <div className="tag">
-                        <h4>{props.tag1}</h4>
-                        <h4>{props.tag2}</h4>
+                        <div className="tag">
+                            <h4>{props.tag1}</h4>
+                            <h4>{props.tag2}</h4>
+                        </div>
                     </div>
                 </div>
 
