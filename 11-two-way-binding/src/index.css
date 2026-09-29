@@ -1,0 +1,17 @@
+* {
+    margin: 20px;
+    padding: 20px;
+}
+
+.html,
+body{
+    padding: 20px;
+    margin: 20px;
+}
+
+.inputBox {
+    padding: 10px;
+    margin:10px;
+    background-color: gray;
+    border-radius: 6px;
+} 
