@@ -2,20 +2,15 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  var [counter, setCounter] = useState(0);
-
-  console.log(counter);
+  const [counter, setCounter] = useState(0);
 
   function incNumber() {
     setCounter(counter + 1)
-    console.log(counter++)
   }
 
   function decNumber() {
     setCounter(counter - 1)
-    console.log(counter--)
   }
-
 
   return (
 
